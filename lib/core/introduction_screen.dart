@@ -14,7 +14,7 @@ class Introduction extends StatelessWidget {
             title: 'Drops Water Tracker',
             body: 'Stay hydrated and track your daily water intake',
             image: Center(
-              child: Image.asset('images/ISpage1.png'),
+              child: Image.asset('images/intro1.png'),
             )),
         PageViewModel(
             title: 'Drops Water Tracker',
