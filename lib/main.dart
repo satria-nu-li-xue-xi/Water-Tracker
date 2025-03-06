@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:introduction_screen/introduction_screen.dart';
+import 'package:project_onepercent/core/introduction_screen.dart';
 import 'features/Profile/presentation/pages/profile_pages.dart';
 import 'package:get/get.dart';
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProfileView(),
+      home: Introduction(),
     );
   }
 }
