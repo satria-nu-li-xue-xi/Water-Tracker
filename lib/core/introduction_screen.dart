@@ -10,23 +10,32 @@ class Introduction extends StatelessWidget {
     return IntroductionScreen(
       pages: [
         PageViewModel(
-            decoration: PageDecoration(pageColor: Colors.lightBlueAccent),
+            decoration: PageDecoration(
+                pageColor: Color.fromARGB(255, 93, 204, 252),
+                titleTextStyle: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold),
+                bodyTextStyle: TextStyle(
+                    color: Colors.white,
+                    fontSize: 14,
+                    fontWeight: FontWeight.w500)),
             title: 'Drops Water Tracker',
             body: 'Stay hydrated and track your daily water intake',
             image: Center(
-              child: Image.asset('images/ISpage1.png'),
+              child: Image.asset('images/intro1.png'),
             )),
         PageViewModel(
             title: 'Drops Water Tracker',
             body: 'Stay hydrated and track your daily water intake',
             image: Center(
-              child: Image.asset('images/ISpage1.png'),
+              child: Image.asset('images/intro1.png'),
             )),
         PageViewModel(
             title: 'Drops Water Tracker',
             body: 'Stay hydrated and track your daily water intake',
             image: Center(
-              child: Image.asset('images/ISpage1.png'),
+              child: Image.asset('images/intro1.png'),
             ))
       ],
       showBackButton: true,
