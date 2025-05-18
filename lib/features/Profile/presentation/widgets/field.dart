@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/colors.dart';
 
 class Field extends StatelessWidget {
   Field({
@@ -32,4 +31,3 @@ class Field extends StatelessWidget {
     );
   }
 }
-
